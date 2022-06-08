@@ -2,14 +2,13 @@
 
 module
 	WRAP_gig_ethernet_pcs_pma_0 (
-	// EtherNet
 		input	wire			CLK_200M		,
 		input	wire			SGMII_CLK_P		,
 		input	wire			SGMII_CLK_N		,
-		output	wire			SFP_TXP			,	// out	: Tx signal line
-		output	wire			SFP_TXN			,	// out	: 
-		input	wire			SFP_RXP			,	// in	: Rx signal line
-		input	wire			SFP_RXN			,	// in	: 
+		output	wire			SFP_TXP			,
+		output	wire			SFP_TXN			,
+		input	wire			SFP_RXP			,
+		input	wire			SFP_RXN			,
 		output	wire			SGMII_CLK		,
 
 		input	wire	[7:0]	GMII_TXD		,

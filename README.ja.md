@@ -19,3 +19,20 @@ KC705へSFPモジュール挿入時、SGMIIと1000BASE-Xの自動判別機能が
 * その他の関連プロジェクトは、[こちら](https://github.com/BeeBeansTechnologies)を参照してください。
 
 ![SiTCP](sitcp.png)
+
+
+## 履歴
+
+#### 2022-06-07 Ver.1.0.1
+* 「kc705sitcp.v」
+    * ポート名を修正
+    * DIPスイッチ割り当てを変更
+    * 誤記修正
+* 「RBCP.v」
+    * 回路記述を変更
+* 「kc705sitcp.xdc」
+    * ポート名を修正
+
+#### 2018-11-12 Ver.1.0.0
+
+* 新規登録。
